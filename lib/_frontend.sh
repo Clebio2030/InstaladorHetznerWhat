@@ -16,7 +16,7 @@ frontend_node_dependencies() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/${instancia_add}/frontend
-  npm install
+  npm install --force
 EOF
 
   sleep 2
@@ -36,7 +36,7 @@ frontend_node_build() {
 
   sudo su - deploy <<EOF
   cd /home/deploy/${instancia_add}/frontend
-  npm run build
+  NODE_OPTIONS=--openssl-legacy-provider npm run buildev
 EOF
 
   sleep 2
