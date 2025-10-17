@@ -2,12 +2,6 @@
 
 Neste instalador o pm2 é no usuário root.
 
-* Atualização pelo terminal parece não funcionar.
-
-```bash
-sudo apt -y update && apt -y upgrade
-```
-
 FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
